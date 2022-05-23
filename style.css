@@ -272,3 +272,77 @@
     letter-spacing: 0.5px;
     color: var(--text-color);
 }
+
+
+/* Партнеры */
+
+.quote-block {
+    display: flex;
+    align-items: baseline;
+    padding-top: 58px;
+    padding-left: 134px;
+}
+
+.quote {
+    margin-left: -30px;
+}
+
+.partners {
+    background-image: url(img/quote-background.jpg);
+    height: 551px;
+    margin-top: 50px;
+}
+
+.quote-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: var(--color-2);
+    margin-bottom: 24px;
+}
+
+.quote-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 497px;
+}
+
+.partners-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 77px;
+}
+
+.part-line,
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.part-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--color-2);
+    margin-bottom: 5px;
+}
+
+.part-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
