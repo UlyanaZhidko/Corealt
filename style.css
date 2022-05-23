@@ -98,7 +98,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 36px;
-    margin-top: -150px;
 }
 
 .title-line {
@@ -357,6 +356,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 120px;
 }
 
 .features-block {
@@ -407,4 +407,91 @@
     font-weight: 700;
     color: var(--text-color);
     text-decoration: none;
+}
+
+
+/* Аренда */
+
+.rent {
+    background: #FFFFFF;
+    filter: drop-shadow(4px 4px 35px rgba(0, 0, 0, 0.25));
+    padding: 64px;
+}
+
+.rent-head {
+    width: 903px;
+}
+
+.rent-head-block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.rent-head-item {
+    display: flex;
+    margin-right: 50px;
+}
+
+.rent-head-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--text-color);
+}
+
+.rent-head-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+    color: var(--text-color);
+    margin-left: 15px;
+}
+
+.rent-photo {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rent-img img {
+    object-fit: none;
+    width: 901px;
+    height: 591px;
+    /* object-position: 0px 75%; */
+}
+
+.tab {
+    /*   float: right; */
+    width: 373px;
+}
+
+.tab button {
+    display: block;
+    padding: 37px 70px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-2);
+    background: #FFFFFF;
+    opacity: 0.9;
+    box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+}
+
+.tab button.active {
+    background: rgba(88, 190, 191, 0.9);
+    box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.25);
+    color: #fff
 }
