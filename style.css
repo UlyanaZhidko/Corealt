@@ -416,6 +416,7 @@
     background: #FFFFFF;
     filter: drop-shadow(4px 4px 35px rgba(0, 0, 0, 0.25));
     padding: 64px;
+    margin-bottom: 60px;
 }
 
 .rent-head {
@@ -461,11 +462,9 @@
     object-fit: none;
     width: 901px;
     height: 591px;
-    /* object-position: 0px 75%; */
 }
 
 .tab {
-    /*   float: right; */
     width: 373px;
 }
 
@@ -494,4 +493,26 @@
     background: rgba(88, 190, 191, 0.9);
     box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.25);
     color: #fff
+}
+
+.rent-map {
+    display: flex;
+    align-items: flex-start;
+}
+
+.map {
+    margin-right: 50px;
+}
+
+.map-info {
+    display: flex;
+    align-items: center;
+}
+
+.map-address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+    color: var(--text-color);
 }
