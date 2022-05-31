@@ -431,6 +431,8 @@
 .rent-head-item {
     display: flex;
     margin-right: 50px;
+    width: 421px;
+    align-items: flex-start;
 }
 
 .rent-head-title {
@@ -498,7 +500,7 @@
 }
 
 .rent-img img {
-    object-fit: none;
+    object-fit: cover;
     width: 901px;
     height: 591px;
 }
@@ -523,4 +525,83 @@
     font-size: 20px;
     line-height: 110%;
     color: var(--text-color);
+}
+
+
+/* Контакты */
+
+.contacts-section {
+    background-image: url("img/footer_img.png");
+    background-repeat: no-repeat;
+    height: 397px;
+    background-size: cover;
+    background-position: 0 -130px;
+}
+
+.contacts {
+    display: flex;
+    margin-right: 75px;
+    align-items: center;
+}
+
+.contacts:last-child {
+    margin-right: 0px;
+}
+
+.contacts-two {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts-block {
+    display: flex;
+    width: 1167px;
+    justify-content: space-between;
+    margin-left: 55px;
+}
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.cont-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    margin-right: 14px;
+}
+
+
+/* Подвал */
+
+.footer {
+    height: 186px;
+    background: #09376F;
+}
+
+.footer-nav {
+    padding: 50px 0;
+}
+
+.footer-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
 }
