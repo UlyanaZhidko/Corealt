@@ -450,7 +450,7 @@
     margin-left: 15px;
 }
 
-.rent-photo {
+.tabs-wrapper {
     margin: 50px 0;
     display: flex;
     flex-direction: row-reverse;
@@ -458,17 +458,11 @@
     align-items: center;
 }
 
-.rent-img img {
-    object-fit: none;
-    width: 901px;
-    height: 591px;
-}
-
-.tab {
+.tabs {
     width: 373px;
 }
 
-.tab button {
+.tabs .tab {
     display: block;
     padding: 37px 70px;
     width: 100%;
@@ -489,10 +483,24 @@
     margin-bottom: 25px;
 }
 
-.tab button.active {
+.tabs .tab.on {
     background: rgba(88, 190, 191, 0.9);
     box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.25);
     color: #fff
+}
+
+.tabs-items .item {
+    display: none
+}
+
+.tabs-items .item.on {
+    display: block
+}
+
+.rent-img img {
+    object-fit: none;
+    width: 901px;
+    height: 591px;
 }
 
 .rent-map {
