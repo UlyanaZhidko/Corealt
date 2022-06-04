@@ -754,6 +754,7 @@
     .quote-block {
         padding-top: 20px;
         padding-left: 120px;
+        justify-content: center;
     }
     .partners-block {
         flex-direction: column;
@@ -787,5 +788,18 @@
     }
     .partners {
         height: auto;
+    }
+    /* Особенности */
+    .features-img {
+        display: none;
+    }
+    .features-cards {
+        flex-direction: column;
+    }
+    .features-block {
+        margin: 0 auto;
+    }
+    .card {
+        margin-right: 0;
     }
 }
