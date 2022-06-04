@@ -537,6 +537,11 @@
     margin-right: 50px;
 }
 
+.map iframe {
+    height: 264px;
+    width: 397px;
+}
+
 .map-info {
     display: flex;
     align-items: center;
@@ -801,5 +806,72 @@
     }
     .card {
         margin-right: 0;
+        margin-bottom: 65px;
+    }
+    .features {
+        margin-bottom: 0;
+    }
+    /* Аренда */
+    .rent-head-title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .rent-head-block {
+        flex-direction: column;
+    }
+    .rent {
+        padding: 20px;
+    }
+    .tabs {
+        width: 150px;
+    }
+    .tabs .tab {
+        font-size: 12px;
+        line-height: 11px;
+        padding: 12px 13px;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+    .tabs .tab:last-child {
+        margin-bottom: 0px;
+    }
+    .tabs-items .item.on {
+        margin-right: -90px;
+    }
+    .rent-img img {
+        width: 246px;
+        height: 271px;
+    }
+    .map iframe {
+        width: 100%;
+        height: 142px;
+    }
+    .rent-head {
+        width: 100%;
+    }
+    .rent-head-item {
+        margin-right: 0;
+        width: 100%;
+    }
+    .map-address,
+    .rent-head-text {
+        font-size: 16px;
+    }
+    .rent-map {
+        flex-direction: column-reverse;
+    }
+    .map {
+        margin-right: 0;
+    }
+    .map-info,
+    .rent-head-item {
+        margin-bottom: 20px;
+    }
+    .rent-head-block {
+        margin-top: 0;
+    }
+    .tabs-wrapper {
+        margin: 20px 0;
     }
 }
