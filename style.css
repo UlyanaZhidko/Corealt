@@ -207,6 +207,10 @@
     justify-content: space-between;
 }
 
+.right-block-mob {
+    display: none;
+}
+
 .right-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -682,5 +686,68 @@
     }
     #about {
         margin-top: -840px;
+    }
+    .left-title {
+        font-size: 27px;
+        line-height: 1;
+    }
+    .left-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .right-block {
+        display: none;
+    }
+    .right-block-mob {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.25);
+        padding: 20px 10px 30px;
+        height: 450px;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+    .about-img img {
+        width: 65%;
+    }
+    .left-block {
+        margin: 0;
+        width: 200px;
+        height: 256px;
+    }
+    .about-block {
+        height: 256px;
+    }
+    .left-separate {
+        height: 1px;
+        margin-top: 12px;
+    }
+    .icon-title {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .icon-block img {
+        width: 35px;
+    }
+    .right-text {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .right-btn a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .btn-left {
+        margin-bottom: 30px;
+    }
+    .right-btn {
+        margin-right: 0px;
+        flex-direction: column;
+    }
+    .about-icons {
+        margin-top: 35px;
     }
 }
