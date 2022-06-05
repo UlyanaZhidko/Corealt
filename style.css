@@ -653,8 +653,9 @@
         display: inline-block;
     }
     .topnav {
-        padding: 8px 0;
+        padding: 10px 0;
         justify-content: space-around;
+        margin-bottom: 10px;
     }
     .topnav-menu a {
         font-size: 8px;
@@ -873,5 +874,29 @@
     }
     .tabs-wrapper {
         margin: 20px 0;
+    }
+    /* Контакты */
+    .contacts-block {
+        flex-direction: column;
+        margin-left: 20px;
+        width: auto;
+    }
+    .contacts-section {
+        background-position: 0 30px;
+    }
+    .contacts {
+        margin-bottom: 15px;
+    }
+    /* Подвал */
+    .footer {
+        height: auto;
+    }
+    .footer-nav .header-logo {
+        width: 76px;
+    }
+    .footer-info {
+        font-size: 7px;
+        line-height: 8px;
+        padding-bottom: 10px;
     }
 }
