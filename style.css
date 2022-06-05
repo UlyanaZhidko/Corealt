@@ -900,3 +900,13 @@
         padding-bottom: 10px;
     }
 }
+
+@media (min-width: 768px) {
+    .tabs {
+        width: 373px;
+    }
+    .rent-img img {
+        width: 80%;
+        height: 80%;
+    }
+}
