@@ -37,3 +37,8 @@ window.addEventListener('scroll', function() {
     }
 
 })
+
+
+/* Изменение года в футере */
+var now = new Date().getFullYear();
+document.querySelector('span.copyright_Date').innerHTML = now;

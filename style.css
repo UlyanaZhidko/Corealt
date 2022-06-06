@@ -915,3 +915,10 @@
         height: 80%;
     }
 }
+
+@media (min-width: 1400px) {
+    .rent-img img {
+        width: 901px;
+        height: 591px;
+    }
+}
